@@ -1,0 +1,128 @@
+/**Fonts**/
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,400,300,300italic,500,400italic,500italic,700,700italic);
+
+body{
+	font-family: "Roboto",sans-serif;
+	font-size: 1em;
+	margin: 0;
+}
+
+
+section.area{
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom:0;
+	background-size: cover;
+	background-image: url("../img/clinica-fachada-normal.jpg");
+	background-position: center center;
+}
+
+button{
+	border: 0;
+	color:white;
+	background-color: #4B863E;
+	font-size: 1em;
+	padding: .5em .3em;
+	border-radius: .2em;
+	width: 100%;
+	margin: .3em 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+button.azul{
+	background-color: #5496d0;
+}
+button.verde{
+	background-color: #54d17a;
+}
+
+button.azulColor{
+	color: #5496d0;
+	background-color: transparent;
+}
+
+button.verColor{
+	color: #54d17a;
+	background-color: transparent;
+}
+
+h1.titulo{
+	padding: .3em;
+	text-align: center;
+	font-weight: 100;
+	color:white;
+	font-size: 1.3em;
+	position: absolute;
+	z-index: 99;
+	display: block;
+	margin: 0;
+	left:0;
+	right: 0;
+	top:0;
+	
+	background-color: #5496d0;
+	box-shadow: 0 0 .3em rgba(0,0,0,.5);
+}
+
+article.painel{
+	position: absolute;
+	margin: 0 auto;
+	left: 5%;
+	width: 90%;
+	max-width: 700px;
+	bottom: 3em;
+	box-sizing: border-box;
+	padding: 1em;
+	border-radius: .5em;
+	background-color: rgba(255,255,255,.9);
+	text-align: center;
+	
+	-webkit-transition: 1s ease all;
+	-moz-transition: 1s ease all;
+	-o-transition: 1s ease all;
+	-ms-transition: 1s ease all;
+	transition: 1s ease all;
+}
+
+article.painel input{
+	background-color: transparent;
+	border: 2px solid #b8b8b8;
+	color: white;
+	padding: .3em;
+	font-size: 1.2em;
+	margin-bottom: .3em;
+	border-radius: .3em;
+	width: 100%;
+	box-sizing: border-box;
+	color: black;
+}
+
+article.painel input:focus{
+	outline: none;
+	background-color: white;
+}
+
+article.cadastro{
+	left:250%;
+}
+
+.logo{
+  position: absolute;
+  right: 15%;
+  top: 16%;
+}
+
+@media screen and (max-width: 780px)  {
+	.logo{
+	  position: absolute;
+	  right: 34%;
+	  top: 7%;
+	}
+	.logo img{
+		width: 8em;
+	}
+}
